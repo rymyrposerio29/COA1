@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 300px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+input[type="button"] {
+  margin-left: 150px;
+}
+
+.error {
+  color: red;
+}
